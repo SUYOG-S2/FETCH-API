@@ -6,7 +6,7 @@ var btn = document.getElementById('btn')
 btn.onclick = () => {
     var x = document.getElementById('search').value
     fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${x}&APPID=8b01a1e678d82760c5a76a37bac49366`
+        `https://api.openweathermap.org/data/2.5/weather?q=${x}&APPID= "//put api key of weather app//"`
     )
 
     .then((response) => response.json())
